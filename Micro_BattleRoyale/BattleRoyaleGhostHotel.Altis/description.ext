@@ -29,4 +29,18 @@ class CfgUnitInsignia
 	};
 };
 
+#include "Modules\HG_MSS\UI\HG_ShopDialog.h"
+
+class CfgClientShop
+{
+    #include "Modules\HG_MSS\Config\HG_ShopCfg.h"
+};
+
+class CfgFunctions 
+{
+	#include "Modules\HG_MSS\Functions\HG_ShopFncs.h"
+};
+
+
 #include "cfgFunctions.hpp"
+
