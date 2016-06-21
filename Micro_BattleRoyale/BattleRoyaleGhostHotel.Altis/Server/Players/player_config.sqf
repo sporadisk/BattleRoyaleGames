@@ -8,4 +8,4 @@
 */
 
 //--- Minimum players to start a round
-BRMini_Min_Players = 2; 
+BRMini_Min_Players = 1; // Dev mode!
