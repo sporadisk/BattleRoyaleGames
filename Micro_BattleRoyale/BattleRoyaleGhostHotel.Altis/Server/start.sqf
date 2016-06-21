@@ -84,7 +84,7 @@ _winners = (getMarkerPos "BRMini_SafeZone") nearObjects ["Man",300];
 		_score = _score + 1;
 		BRMini_WinnerScores set[_index,_score];
 	
-		_txt = format["%1 - WINNER, WINNER, CHICKEN DINNER!",_name];
+		_txt = format["%1 - VICTORY!",_name];
 		BR_DT_PVAR = [ _txt,0,0.45,10,0];
 		publicVariable "BR_DT_PVAR";
 		uiSleep 5;
