@@ -8,4 +8,4 @@
 */
 
 //--- Rounds played before mission restart
-BRMini_GamesPlayed_MaxGames = 10;
+BRMini_GamesPlayed_MaxGames = 100;
