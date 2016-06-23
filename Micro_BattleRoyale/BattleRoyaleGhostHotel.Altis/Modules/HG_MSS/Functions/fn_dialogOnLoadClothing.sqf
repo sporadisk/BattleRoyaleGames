@@ -28,8 +28,8 @@ HG_CLOTHING_SWITCH lbSetCurSel 0;
 if(isNil "HG_PLAYER_BOX") then
 {
     HG_PLAYER_BOX = "Box_NATO_Wps_F" createVehicleLocal getPos player;
-    HG_PLAYER_BOX addAction ["<img image='HG_MSS\UI\crate.paa' size='1.5'/><t color='#FF0000'>Delete Crate</t>",{deleteVehicle (_this select 0); HG_PLAYER_BOX = nil},"",0,false,false,"",'(alive player) && !dialog && player distance _target < 2'];
-	HG_PLAYER_BOX addAction ["<img image='HG_MSS\UI\crate.paa' size='1.5'/><t color='#FF0000'>Empty Crate</t>",{clearItemCargo HG_PLAYER_BOX; clearMagazineCargo HG_PLAYER_BOX; clearWeaponCargo HG_PLAYER_BOX; clearBackpackCargo HG_PLAYER_BOX;},"",0,false,false,"",'(alive player) && !dialog && player distance _target < 2'];
+    HG_PLAYER_BOX addAction ["<img image='Modules\HG_MSS\UI\crate.paa' size='1.5'/><t color='#FF0000'>Delete Crate</t>",{deleteVehicle (_this select 0); HG_PLAYER_BOX = nil},"",0,false,false,"",'(alive player) && !dialog && player distance _target < 2'];
+	HG_PLAYER_BOX addAction ["<img image='Modules\HG_MSS\UI\crate.paa' size='1.5'/><t color='#FF0000'>Empty Crate</t>",{clearItemCargo HG_PLAYER_BOX; clearMagazineCargo HG_PLAYER_BOX; clearWeaponCargo HG_PLAYER_BOX; clearBackpackCargo HG_PLAYER_BOX;},"",0,false,false,"",'(alive player) && !dialog && player distance _target < 2'];
 };
 
 HG_PLAYER_BOX setPos [(getPos player select 0)+1,(getPos player select 1),(getPos player select 2)];

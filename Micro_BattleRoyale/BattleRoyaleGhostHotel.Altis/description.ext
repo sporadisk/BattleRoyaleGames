@@ -39,8 +39,9 @@ class CfgClientShop
 class CfgFunctions 
 {
 	#include "Modules\HG_MSS\Functions\HG_ShopFncs.h"
+	#include "cfgFunctions.hpp"
 };
 
 
-#include "cfgFunctions.hpp"
+
 

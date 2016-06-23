@@ -67,7 +67,7 @@ class HG_WeaponsShopDialog
 		class BuyBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\buy.paa";
+			text = "Modules\HG_MSS\UI\buy.paa";
 			x = 0.561875 * safezoneW + safezoneX;
 			y = 0.269 * safezoneH + safezoneY;
 			w = 0.0309375 * safezoneW;
@@ -77,7 +77,7 @@ class HG_WeaponsShopDialog
 		class MyCashBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\mycash.paa";
+			text = "Modules\HG_MSS\UI\mycash.paa";
 			x = 0.592812 * safezoneW + safezoneX;
 			y = 0.269 * safezoneH + safezoneY;
 			w = 0.0309375 * safezoneW;
@@ -87,7 +87,7 @@ class HG_WeaponsShopDialog
 		class ExitBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\close.paa";
+			text = "Modules\HG_MSS\UI\close.paa";
 			x = 0.62375 * safezoneW + safezoneX;
 			y = 0.269 * safezoneH + safezoneY;
 			w = 0.0309375 * safezoneW;
@@ -292,7 +292,7 @@ class HG_VehiclesShopDialog
 		class BuyBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\buy.paa";
+			text = "Modules\HG_MSS\UI\buy.paa";
 			x = 0.603124 * safezoneW + safezoneX;
 			y = 0.00500001 * safezoneH + safezoneY;
 			w = 0.0309375 * safezoneW; 
@@ -302,7 +302,7 @@ class HG_VehiclesShopDialog
 		class MyCashBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\mycash.paa";
+			text = "Modules\HG_MSS\UI\mycash.paa";
 			x = 0.639218 * safezoneW + safezoneX;
 			y = 0.00500001 * safezoneH + safezoneY;
 			w = 0.0360937 * safezoneW;
@@ -312,7 +312,7 @@ class HG_VehiclesShopDialog
 		class ExitBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\close.paa";
+			text = "Modules\HG_MSS\UI\close.paa";
 			x = 0.675312 * safezoneW + safezoneX;
 			y = 0.00500001 * safezoneH + safezoneY;
 			w = 0.0309375 * safezoneW;
@@ -476,7 +476,7 @@ class HG_ClothingShopDialog
 		class ResetBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\reset.paa";
+			text = "Modules\HG_MSS\UI\reset.paa";
 			x = 0.56703 * safezoneW + safezoneX;
 			y = 0.00500001 * safezoneH + safezoneY;
 			w = 0.0309375 * safezoneW; 
@@ -486,7 +486,7 @@ class HG_ClothingShopDialog
 		class BuyBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\buy.paa";
+			text = "Modules\HG_MSS\UI\buy.paa";
 			x = 0.603124 * safezoneW + safezoneX;
 			y = 0.00500001 * safezoneH + safezoneY;
 			w = 0.0309375 * safezoneW; 
@@ -496,7 +496,7 @@ class HG_ClothingShopDialog
 		class MyCashBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\mycash.paa";
+			text = "Modules\HG_MSS\UI\mycash.paa";
 			x = 0.639218 * safezoneW + safezoneX;
 			y = 0.00500001 * safezoneH + safezoneY;
 			w = 0.0309375 * safezoneW;
@@ -506,7 +506,7 @@ class HG_ClothingShopDialog
 		class ExitBtnPicture: HG_RscPicture
 		{
 			idc = HG_NO_IDC;
-			text = "HG_MSS\UI\close.paa";
+			text = "Modules\HG_MSS\UI\close.paa";
 			x = 0.675312 * safezoneW + safezoneX;
 			y = 0.00500001 * safezoneH + safezoneY;
 			w = 0.0309375 * safezoneW;

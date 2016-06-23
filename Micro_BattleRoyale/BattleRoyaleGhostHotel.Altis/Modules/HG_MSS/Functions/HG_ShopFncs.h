@@ -3,7 +3,7 @@ class HG_MSS
 	tag = "HG";
 	class MSS 
 	{
-		file = "HG_MSS\Functions";
+		file = "Modules\HG_MSS\Functions";
 		class addOrSubCash {};
 		/* Weapons Shop */
 		class buyItem {};

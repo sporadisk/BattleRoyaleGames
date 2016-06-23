@@ -18,16 +18,10 @@ _weatherThread = [] spawn BRGH_fnc_startWeather;
 call BRGH_fnc_spawnLoot;
 call BRGH_fnc_waitForPlayers;
 
-uiSleep 10;
+uiSleep 5;
 BR_DT_PVAR = ["THIS IS BATTLE ROYALE",0,0.45,5,0];
 publicVariable "BR_DT_PVAR";
-uiSleep 6;
-BR_DT_PVAR = ["GHOST HOTEL",0,0.45,5,0];
-publicVariable "BR_DT_PVAR";
-uiSleep 10;
-BR_DT_PVAR = ["A PLAYERUNKNOWN PRODUCTION",0,0.45,5,0];
-publicVariable "BR_DT_PVAR";
-uiSleep 10;
+uiSleep 5;
 
 BRMini_GameStarted = true;
 publicVariable "BRMini_GameStarted";

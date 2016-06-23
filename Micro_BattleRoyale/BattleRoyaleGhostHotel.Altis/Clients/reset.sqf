@@ -27,6 +27,7 @@ if((_this select 0) distance (getMarkerPos "respawn_west") > 300) then {
 player removeAllEventHandlers "Respawn";
 player removeAllEventHandlers "Fired";
 player removeAllEventHandlers "Hit";
+player removeAllEventHandlers "Killed";
 
 call BRGH_fnc_endVON;
 [] spawn BRGH_fnc_clientStart; 

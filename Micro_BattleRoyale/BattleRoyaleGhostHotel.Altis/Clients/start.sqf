@@ -14,7 +14,7 @@ call BRGH_fnc_playerSetup;
  if(!isNil "_wepShopDialog") then {
  	player removeAction _wepShopDialog;
  	player removeAction _clothingShopDialog;
- }
+ };
 
 diag_log "<START>: START VON";
 call BRGH_fnc_startVON;
@@ -62,14 +62,15 @@ player allowDamage true;
 [10,40] call BRGH_fnc_AntiTP; //--- [Distance(m),MaxVelocity(km/h)] (OMG SUCH BUGS)
 
 _balanceCash = player getVariable "balanceCash";
-if(isNil "_playerWins") then {
+if(isNil "_balanceCash") then {
 	_balanceCash = 0;
-}
+	player setVariable["balanceCash", _balanceCash];
+};
 
 player setVariable["HG_myCash", _balanceCash + 100]; // Starting money: Balance cash + enough to change look
 
-_wepShopDialog       = player addAction["<img image='HG_MSS\UI\gun.paa' size='1.5'/><t color='#FF0000'>Open Weapons Shop</t>",{_this call HG_fnc_dialogOnLoadItems},"HG_DefaultShop",0,false,false,"",'(alive player) && !dialog'];
-_clothingShopDialog  = player addAction["<img image='HG_MSS\UI\clothing.paa' size='1.5'/><t color='#FF0000'>Open Clothing Shop</t>",{_this call HG_fnc_dialogOnLoadClothing},"HG_DefaultShop",0,false,false,"",'(alive player) && !dialog'];
+_wepShopDialog       = player addAction["<img image='Modules\HG_MSS\UI\gun.paa' size='1.5'/><t color='#FF0000'>Open Weapons Shop</t>",{_this call HG_fnc_dialogOnLoadItems},"HG_DefaultShop",0,false,false,"",'(alive player) && !dialog'];
+_clothingShopDialog  = player addAction["<img image='Modules\HG_MSS\UI\clothing.paa' size='1.5'/><t color='#FF0000'>Open Clothing Shop</t>",{_this call HG_fnc_dialogOnLoadClothing},"HG_DefaultShop",0,false,false,"",'(alive player) && !dialog'];
 
 player setVariable["wepShopDialog", _wepShopDialog];
 player setVariable["clothingShopDialog", _clothingShopDialog];
