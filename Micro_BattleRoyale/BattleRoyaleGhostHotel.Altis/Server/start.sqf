@@ -66,6 +66,11 @@ _winners = (getMarkerPos "BRMini_SafeZone") nearObjects ["Man",300];
 	if(alive _x && isplayer _x) then {
 		_name = name _x;
 
+		_balanceCash = _x getVariable "balanceCash";
+		if(_balanceCash >= 1000) then {
+			_x setVariable ["balanceCash", (_balanceCash - 1000)];
+		}
+
 		_index = BRMini_Winners find _name;
 		if(_index == -1) then {
 			_index = count(BRMini_Winners);
